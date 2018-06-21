@@ -1,5 +1,6 @@
 import React from 'react';
+import ExamplePage from './pages/example';
 
 export default () => {
-  return <div>Let's start hacking</div>;
+  return <ExamplePage/>;
 };

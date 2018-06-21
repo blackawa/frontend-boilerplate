@@ -64,7 +64,7 @@ typings/
 
 # Editor configurations
 .idea
-front-web.iml
+*.iml
 
 # Bundle file
 public/js
