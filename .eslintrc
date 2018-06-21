@@ -1,0 +1,6 @@
+{
+  "extends": "fbjs",
+  "rules": {
+    "max-len": [1, 120, {"tabWidth": 2, "ignoreUrls": true, "code": 120}]
+  }
+}
