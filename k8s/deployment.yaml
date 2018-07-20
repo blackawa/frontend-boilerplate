@@ -1,0 +1,22 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: frontend-boilerplate
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: frontend-boilerplate
+    spec:
+      containers:
+      # TODO: rename $(PROJECT_ID)
+      - image: gcr.io/$(PROJECT_ID)/frontend-boilerplate:1.0.0
+        imagePullPolicy: Always
+        name: frontend-boilerplate
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5

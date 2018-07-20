@@ -1,0 +1,11 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.0.0",
+  "description": "本番環境で起動するためのexpressアプリケーション",
+  "repository": "FIXME",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
