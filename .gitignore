@@ -67,8 +67,7 @@ typings/
 *.iml
 
 # Bundle file
-public/js
-public/index.html
+public
 storybook-static
 
 # Mac OS X
