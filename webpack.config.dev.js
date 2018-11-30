@@ -18,7 +18,7 @@ module.exports = merge(baseConfig, {
           fix: true,
         },
       },
-    ]
+    ],
   },
   serve: {
     add: (app, middleware, options) => {

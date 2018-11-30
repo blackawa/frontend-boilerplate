@@ -19,34 +19,3 @@ To develop, run
 To design components, run
 
     yarn storybook
-
-## Libraries
-
-### UI Components
-
-* react
-* styled-components
-* radium
-
-### State management
-
-* redux
-* redux-saga
-* redux-persist
-* redux-logger
-
-### Routing
-
-* react-router
-
-### Linter
-
-* eslint
-
-### Build
-
-* webpack
-
-### Design
-
-* storybook
