@@ -4,11 +4,9 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "connect-history-api-fallback": "^1.5.0",
     "connected-react-router": "^5.0.1",
     "final-form": "^4.11.0",
     "history": "^4.7.2",
-    "koa-connect": "^2.0.1",
     "radium": "^0.25.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -24,7 +22,7 @@
     "styled-components": "^4.1.2"
   },
   "scripts": {
-    "start": "webpack-serve --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.production.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -32,9 +30,9 @@
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
-    "@babel/polyfill": "^7.0.0",
     "@storybook/addon-actions": "^4.0.9",
     "@storybook/addon-links": "^4.0.9",
     "@storybook/addons": "^4.0.9",
@@ -55,6 +53,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4",
     "webpack-serve": "^2.0.3"
   }

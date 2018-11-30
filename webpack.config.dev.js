@@ -1,7 +1,5 @@
 const merge = require('webpack-merge');
 const baseConfig = require('./webpack.config.base');
-const convert = require('koa-connect');
-const history = require('connect-history-api-fallback');
 
 module.exports = merge(baseConfig, {
   mode: 'development',
@@ -18,12 +16,5 @@ module.exports = merge(baseConfig, {
         },
       },
     ],
-  },
-  serve: {
-    add: (app, middleware, options) => {
-      app.use(convert(history()));
-    },
-    hot: true,
-    open: true,
   },
 });
