@@ -7696,9 +7696,10 @@ radium@^0.19.0:
     inline-style-prefixer "^2.0.5"
     prop-types "^15.5.8"
 
-radium@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/radium/-/radium-0.24.0.tgz#32ca64e5cb8226cac3887d5eaf9a150516600de0"
+radium@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/radium/-/radium-0.25.0.tgz#d039bb4e13a3f224c3d4e22bfbcd766048e8caa5"
+  integrity sha512-GieN/VhSeFIVPaJLnp5QZNxkzWEuQIbFs/FewW99z2v3ulwZN65LZ/V66XCp7xKTkrLva+IXPc20LcetGx6Dxg==
   dependencies:
     exenv "^1.2.1"
     inline-style-prefixer "^4.0.0"
