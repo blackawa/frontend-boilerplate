@@ -20,7 +20,7 @@
     "radium": "^0.25.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-final-form": "^3.5.1",
+    "react-final-form": "^4.0.2",
     "react-hot-loader": "^4.2.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
