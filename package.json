@@ -10,7 +10,6 @@
     "axios": "^0.18.0",
     "babel-loader": "^8.0.4",
     "@babel/polyfill": "^7.0.0",
-    "clean-webpack-plugin": "^0.1.19",
     "connect-history-api-fallback": "^1.5.0",
     "connected-react-router": "^4.3.0",
     "css-loader": "^0.28.11",
