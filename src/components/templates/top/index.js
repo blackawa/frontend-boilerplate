@@ -1,7 +1,8 @@
 import React from 'react';
+import Header from '../../atoms/header';
 
 export default () => {
   return <div>
-    <h1>Create something awesome from here</h1>
+    <Header>Create something awesome from here</Header>
   </div>;
 };
